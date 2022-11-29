@@ -69,9 +69,10 @@ If you see any mistakes (command, syntaxes, language), let me know!
 -   x/xqw => display word*quadruple
 
 ## x/whatwhatwhat?? ("values displayed")
--   x/4xb => display 4 bytes in hex
--   x/8xw => display 8 words in hex
--   x/16xdw => display 16 words in hex
+-   x/4xb => display 4 bytes in hex (4-bit value)
+-   x/8xh => display half word (16-bit value)
+-   x/8xw => display 8 words in hex (32-bit value)
+-   x/16xg => display 16 giant words in hex (64-bit value)
 
 ## <b>Examining data</b>
 | <y>command</y> | <y>description</y> |
